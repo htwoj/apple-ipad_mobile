@@ -228,11 +228,13 @@ a.link::after {
 header {
     --header-height: 44px;
     background-color: var(--color-header);
-    position: static;
+    position: relative;
     z-index: 9;
+    transition: .4s;
 }
 header .inner {
     max-width: 1020px;
+    height: var(--header-height);
 }
 
 
@@ -246,6 +248,7 @@ header ul.menu > li {
     display: flex;
     position:relative;
     transition: .4s;
+    cursor: pointer;
 }
 header ul.menu > li > a {
     padding: 0 10px;
@@ -554,7 +557,7 @@ main {
 }
 .hero p.pricing {
     margin-top: 40px;
-    font-size: 24p;
+    font-size: 24px;
     font-weight: 600;
     text-align: center;
 }
@@ -1114,6 +1117,11 @@ footer .buy-info {
     justify-content: space-around;
     gap: 20px;
     text-align: center;
+}
+footer .buy-info h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
 }
 footer .buy-info .icon {
     width: 56px;

@@ -4,7 +4,7 @@
 - HTML/CSS/JS를 활용하여 ipad 제품 페이지 구현
 - 데스크탑 모드의 반응형 페이지
 - 라이브러리 사용 안함
-- [DEMO 페이지로 이동]()
+- [DEMO 페이지로 이동](https://rococo-chebakia-d37f78.netlify.app/)
 
 
 ## 주요 파일/폴더
@@ -28,9 +28,9 @@
 ## 기타
 
 **[CSS 변수]**  
-- --로 시작하는 변수 선언으로 값 할당
-  ex) --color-font: #1d1d1d;
-- var() 함수 사용
+- --로 시작하는 변수 선언으로 값 할당  
+  ex) --color-font: #1d1d1d;  
+- var() 함수 사용  
   ex) var(--color-font);
 
 **[Sprite Animation]**  
@@ -39,5 +39,5 @@
 
 **[VSCODE 확장 프로그램]**
 - COMMENT TAGGED TEMPLATES
-- 언어를 지정하는 주석을 사용해 템플릿 문자열에 대한 태그 하이라이트 표시 가능
-  ex) const div = /*html*/ '<div>${ipad.name}</div>';
+- 언어를 지정하는 주석을 사용해 템플릿 문자열에 대한 태그 하이라이트 표시 가능  
+  ex) const div = /*html*/ \`<div>${ipad.name}</div>\`;
