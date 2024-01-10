@@ -1,8 +1,8 @@
-# 예제 3 - apple-ipad 반응형 페이지(데스크탑 모드)
+# 예제 3 - apple-ipad 반응형 페이지(모바일 모드)
 
 ## 설명
 - HTML/CSS/JS를 활용하여 ipad 제품 페이지 구현
-- 데스크탑 모드의 반응형 페이지
+- 모바일 모드의 반응형 페이지
 - 라이브러리 사용 안함
 - [DEMO 페이지로 이동](https://rococo-chebakia-d37f78.netlify.app/)
 
