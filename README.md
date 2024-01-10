@@ -4,7 +4,7 @@
 - HTML/CSS/JS를 활용하여 ipad 제품 페이지 구현
 - 모바일 모드의 반응형 페이지
 - 라이브러리 사용 안함
-- [DEMO 페이지로 이동](https://rococo-chebakia-d37f78.netlify.app/)
+- [DEMO 페이지로 이동](https://kaleidoscopic-kitsune-2d3a82.netlify.app/)
 
 
 ## 주요 파일/폴더
@@ -40,4 +40,4 @@
 **[VSCODE 확장 프로그램]**
 - COMMENT TAGGED TEMPLATES
 - 언어를 지정하는 주석을 사용해 템플릿 문자열에 대한 태그 하이라이트 표시 가능  
-  ex) const div = /*html*/ \`<div>${ipad.name}</div>\`;
+  ex) const div = /*html*/ \`<div> ${ipad.name}</div> \`;
