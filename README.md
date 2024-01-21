@@ -5,7 +5,7 @@
 - 모바일 모드의 반응형 페이지
 - 라이브러리 사용 안함
 - <a href="https://kaleidoscopic-kitsune-2d3a82.netlify.app/" target="_blank">DEMO 페이지로 이동</a>
-![preview](./images/image.png)
+![preview](./images/preview.png)
 
 
 ## 주요 파일/폴더
@@ -53,4 +53,6 @@
 **[VSCODE 확장 프로그램]**
 - COMMENT TAGGED TEMPLATES
 - 언어를 지정하는 주석을 사용해 템플릿 문자열에 대한 태그 하이라이트 표시 가능  
-  ex) const div = /*html*/ \`<div> ${ipad.name}</div> \`;
+```
+const div = /*html*/ `<div> ${ipad.name}</div> `;
+```
