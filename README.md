@@ -4,7 +4,8 @@
 - HTML/CSS/JS를 활용하여 ipad 제품 페이지 구현
 - 모바일 모드의 반응형 페이지
 - 라이브러리 사용 안함
-- [DEMO 페이지로 이동](https://kaleidoscopic-kitsune-2d3a82.netlify.app/)
+- <a href="https://kaleidoscopic-kitsune-2d3a82.netlify.app/" target="_blank">DEMO 페이지로 이동</a>
+![preview](./images/image.png)
 
 
 ## 주요 파일/폴더
@@ -28,10 +29,22 @@
 ## 기타
 
 **[CSS 변수]**  
-- --로 시작하는 변수 선언으로 값 할당  
-  ex) --color-font: #1d1d1d;  
-- var() 함수 사용  
-  ex) var(--color-font);
+- --로 시작하는 변수 선언으로 값 할당
+- var() 함수 사용
+```
+--color-white: #fff;
+--color-black: #000;
+--color-font: #1d1d1d;
+--color-font-darkgray: #6e6e6e;
+--color-font-lightgray: #f5f5f5;
+--color-font-middlegray: #b7b7b7;
+--color-link: #0071e3;
+--color-link-focus: #8189f1;
+--color-border: #d2d2d2;
+--color-header: #3a3a3a;
+--color-section: #f5f5f5;
+--color-shadow: rgba(0,0,0,.4);
+```
 
 **[Sprite Animation]**  
 - 여러 이미지를 한 이미지로 합쳐서 관리하는 방식
